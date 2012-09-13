@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = TitleizePTBR::VERSION
   gem.authors       = ["Beneti"]
   gem.email         = ["beneti@beneti.com.br"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Just a easy way to titleize names for pt-BR}
+  gem.summary       = %q{Just a easy way to titleize names for pt-BR}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
