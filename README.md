@@ -1,6 +1,6 @@
 # TitleizePTBR
 
-TODO: Write a gem description
+Just a easy way to titleize names for pt-BR. Special hug for reu (https://github.com/reu) for help to my first gem :D
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just call `titleize_pt_br`
+
+``` ruby
+"joão da silva".titleize_pt_br => "João da Silva"
+"josé do amaral".titleize_pr_br => "José do Amaral"
+```
 
 ## Contributing
 
