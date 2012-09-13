@@ -13,5 +13,5 @@ module TitleizePTBR
 end
 
 class String
-  include Titleize
+  include TitleizePTBR
 end
