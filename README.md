@@ -1,6 +1,6 @@
 # TitleizePTBR
 
-Just a easy way to titleize names for pt-BR. Special hug for reu (https://github.com/reu) for help to my first gem :D
+Just a easy way to titleize names for pt-BR. Special hug for [reu](https://github.com/reu) for help to my first gem :D
 
 ## Installation
 
