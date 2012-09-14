@@ -6,7 +6,7 @@ module TitleizePTBR
       gsub(" A ", " a ").
       gsub(" E ", " e ").
       gsub(/ D(e|[ao]s?) /, ' d\1 ').
-      gsub(/ N([ao]s?) /, ' d\1 ').
+      gsub(/ N([ao]s?) /, ' n\1 ').
       gsub(/ Com /, " com ").
       gsub(" Em ", " em ")
   end
