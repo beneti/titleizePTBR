@@ -1,6 +1,5 @@
-# encoding: utf-8
+# encoding: UTF-8
 require 'titleizePTBR'
-require 'activesupport'
 
 describe "genitive article da(s), de, do(s)" do
   context "article da" do

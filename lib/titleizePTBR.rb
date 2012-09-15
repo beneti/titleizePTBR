@@ -1,4 +1,6 @@
 require "titleizePTBR/version"
+require "active_support"
+require "active_support/core_ext"
 
 module TitleizePTBR
   def titleize_pt_br
