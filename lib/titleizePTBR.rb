@@ -1,10 +1,8 @@
 require "titleizePTBR/version"
-require "active_support"
-require "active_support/core_ext"
 
 module TitleizePTBR
   def titleize_pt_br
-    mb_chars.titleize.to_s.
+      downcase.gsub(/\b('?\S)/u) {$1.upcase}.
       gsub(" A ", " a ").
       gsub(" E ", " e ").
       gsub(/ D(e|[ao]s?) /, ' d\1 ').
